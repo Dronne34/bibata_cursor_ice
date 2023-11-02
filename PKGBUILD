@@ -27,12 +27,12 @@ build() {
   cd "Bibata_Cursor-$pkgver"
 
   declare -A names
-  names["Bibata-Modern-Amber"]="Yellowish and rounded edge Bibata cursors."
-  names["Bibata-Modern-Classic"]="Black and rounded edge Bibata cursors."
-  names["Bibata-Modern-Ice"]="White and rounded edge Bibata cursors."
-  names["Bibata-Original-Amber"]="Yellowish and sharp edge Bibata cursors."
-  names["Bibata-Original-Classic"]="Black and sharp edge Bibata cursors."
-  names["Bibata-Original-Ice"]="White and sharp edge Bibata cursors."
+     names["Bibata-Modern-Ice"]="White and rounded edge Bibata cursors."
+ # names["Bibata-Modern-Amber"]="Yellowish and rounded edge Bibata cursors."
+ # names["Bibata-Modern-Classic"]="Black and rounded edge Bibata cursors."
+ # names["Bibata-Original-Amber"]="Yellowish and sharp edge Bibata cursors."
+ # names["Bibata-Original-Classic"]="Black and sharp edge Bibata cursors."
+ # names["Bibata-Original-Ice"]="White and sharp edge Bibata cursors."
 
   for key in "${!names[@]}"; do
     comment="${names[$key]}"
